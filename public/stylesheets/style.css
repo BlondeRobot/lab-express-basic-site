@@ -1,0 +1,12 @@
+body {
+    color: blue;
+    background-color: hotpink;
+}
+
+img {
+    width: 200px;
+}
+
+#container {
+    display: flex;
+}

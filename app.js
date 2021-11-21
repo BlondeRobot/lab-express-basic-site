@@ -17,6 +17,10 @@ app.get("/works", (req, res, next) => {
   res.sendFile(path.join(__dirname, "/views/works.html"));
 });
 
+app.get("/gallery", (req, res, next) => {
+  res.sendFile(path.join(__dirname, "/views/gallery.html"));
+});
+
 app.listen(3000, () => {
   console.log(chalk.bgCyan.black("Server listening on port 3000"));
 });
